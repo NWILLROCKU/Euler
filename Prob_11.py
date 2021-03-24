@@ -8,10 +8,10 @@ for i in range(len(Lines)):
         line.append(int( Lines[i][3*j : 3*j+2] ))
     data.append(line)
 
-index = []
-for i in range(20):
-    try:
-        index.append(data[i].index(99))
-    except ValueError:
-        index.append(-1)
-    
+##index = []
+##for i in range(20):
+##    try:
+##        index.append(data[i].index(99))
+##    except ValueError:
+##        index.append(-1)
+##    
